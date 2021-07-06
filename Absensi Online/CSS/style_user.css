@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+/*                  */
+/*   MENU PROFILE   */
+/*                  */
+
+.card {
+    height: 100%;
+}
+
+.profile-admin {
+    padding: 0 200px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.table td {
+    text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    width: 40%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+.table .profile-kanan {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.table .profile-tengah {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+
+/*                        */
+/*   AKHIR  MENU PROFILE  */
+/*                        */
+
+
+
+
+
+/*                */
+/*   MENU ABSEN   */
+/*                */
+
+.card-absen {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-absen h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-absen .absen {
+    height: 200px;
+}
+
+.absen {
+    padding: 40px;
+}
+
+.tableAbsen {
+    width: 100%;
+    border: transparent;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+.tableAbsen .judul td {
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.5;
+    padding: 10px;
+    border-collapse: collapse;
+    border: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.daftar-absen td {
+    padding: 10px;
+    padding-top: 20px;
+    border: transparent;
+}
+
+.status {
+    width: 15%;
+}
+
+.status .fa-times-circle {
+    width: 100%;
+    font-size: 50px;
+    color: red;
+}
+
+.status .fa-check-square {
+    width: 100%;
+    font-size: 50px;
+    color: green;
+}
+
+.status .fa-exclamation-triangle {
+    width: 100%;
+    font-size: 50px;
+    color: #ffff00e0;
+}
+
+.tanggal {
+    width: 40%;
+}
+
+.masuk .btn {
+    padding: 7px;
+    width: 120px;
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #28527a;
+}
+
+.masuk .btn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.masuk .btn:active {
+    background-color: #204161;
+}
+
+.pulang .btn {
+    padding: 7px;
+    width: 120px;
+    opacity: 0.5;
+    color: #fff;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgb(2, 116, 2);
+}
+
+.pulang .btn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.pulang .btn:active {
+    background-color: rgb(1, 78, 1);
+}
+
+
+/*                      */
+/*   AKHIR MENU ABSEN   */
+/*                      */
+
+
+
+
+
+
+/*                  */
+/*   MENU ABSENKU   */
+/*                  */
+
+.daftar-absen {
+    padding: 40px;
+}
+
+.table-absen {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.table-absen .judul {
+    background-color: rgb(219, 218, 218);
+}
+
+.table-absen .judul td {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.table-absen td {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.user,
+.nmr,
+.masuk,
+.keluar,
+.status {
+    text-align: center;
+}
+
+.table-absen .nmr {
+    width: 5%;
+}
+
+.table-absen .tanggal {
+    width: 25%;
+}
+
+
+/*                        */
+/*   AKHIR MENU ABSENKU   */
+/*                        */

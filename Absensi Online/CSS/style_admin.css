@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f5f4f4;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    background-color: #000;
+    padding: 15px;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+}
+
+.title h1 {
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.7;
+    padding-left: 30px;
+}
+
+.logout {
+    float: right;
+    padding-right: 20px;
+}
+
+.logout a {
+    padding: 22px;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+}
+
+main {
+    padding-top: 55px;
+}
+
+/* ASIDE */
+aside {
+    position: fixed;
+    width: 15%;
+    height: 560px;
+    float: left;
+    background-color: #fff;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.aside li {
+    text-align: center;
+    font-size: 15px;
+}
+
+.aside a {
+    color: #000;
+    text-decoration: none;
+}
+
+.aside ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.aside ul li:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+/* AKHIR ASIDE */
+
+
+/* MENU UTAMA */
+.container {
+    width: 85%;
+    padding: 40px;
+    float: right;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*                  */
+/*   MENU PROFILE   */
+/*                  */
+
+.profile .card {
+    height: 450px;
+}
+
+.profile-admin {
+    padding: 250px;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+
+.table td {
+    width: 40%;
+    text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table .profile-kanan {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.table .profile-tengah {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+
+
+
+/*                      */
+/*  AKHIR MENU PROFILE  */
+/*                      */
+
+
+
+
+/*                  */
+/* MENU TAMBAH USER */
+/*                  */
+.menu {
+    display: flex;
+}
+
+.form {
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.left-menu {
+    width: 50%;
+}
+
+.user-menu {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.right-menu {
+    padding-left: 15px;
+    width: 50%;
+}
+
+.right-menu ul li {
+    border: 1px solid;
+    list-style: none;
+}
+
+.right-menu ul li ul li {
+    display: none;
+}
+
+.right-menu ul li:hover ul li {
+    cursor: pointer;
+    display: block;
+}
+
+.potition {
+    padding: 10px;
+}
+
+.potition input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.input {
+    padding-bottom: 7px;
+    color: rgb(131, 130, 130);
+}
+
+.potition select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    color: rgb(131, 130, 130);
+}
+
+.potition select option {
+    color: #000;
+}
+
+.button {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: royalblue;
+    opacity: 0.7;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.button:active {
+    background-color: rgb(50, 80, 168);
+}
+
+/*                        */
+/* AKHIR MENU TAMBAH USER */
+/*                        */
+
+
+
+/*                        */
+/*   MENU TAMBAH KELAS    */
+/*                        */
+
+.kelas {
+    padding: 0 50px;
+}
+
+.kelas .potition {
+    padding-bottom: 10px;
+}
+
+.kelas .potition input {
+    padding: 7px;
+}
+
+.kelas p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: red;
+    font-size: 12px;
+}
+
+/*                         */
+/* AKHIR MENU TAMBAH KELAS */
+/*                         */
+
+
+
+/*                         */
+/*   MENU TAMBAH SISWA     */
+/*                         */
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+/*                         */
+/* AKHIR MENU TAMBAH SISWA */
+/*                         */
+
+
+
+/*                  */
+/*  MENU DATA USER  */
+/*                  */
+
+.data-user {
+    padding: 40px;
+}
+
+.table-user {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.table-user .judul {
+    background-color: rgb(219, 218, 218);
+}
+
+.table-user .judul td {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.table-user td {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table-user .nmr {
+    width: 5%;
+    text-align: center;
+}
+
+.table-user .edit {
+    width: 15%;
+    text-align: center;
+}
+
+.table-user .edit .far {
+    padding: 0 5px;
+}
+
+.table-user .edit span a {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+.table-user .edit span a:hover {
+    opacity: 1;
+}
+
+.button-print {
+    background-color: red;
+}
+
+.print {
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button-print {
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.button-print:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.button-print:active {
+    background-color: rgb(209, 0, 0);
+}
+
+/*                      */
+/* AKHIR MENU DATA USER */
+/*                      */
+
+
+
+
+/*                      */
+/*   MENU DETAIL USER   */
+/*                      */
+
+.profile .card {
+    height: 450px;
+}
+
+.detail {
+    padding: 250px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td {
+    width: 40%;
+    text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table .profile-kanan {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.table .profile-tengah {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+/*                          */
+/*  AKHIR MENU DETAIL USER  */
+/*                          */
+
+
+
+/*                  */
+/*  MENU EDIT USER  */
+/*                  */
+
+.edit {
+    padding: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+}
+
+
+/*                       */
+/* AKHIR MENU EDIT USER  */
+/*                       */
+
+
+
+
+
+
+/*                    */
+/*  MENU ABSEN SISWA  */
+/*                    */
+
+.card-absen-edit {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-absen-edit {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-absen-edit h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-absen-edit .absen {
+    height: 200px;
+}
+
+.table-edit {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.table-edit .judul {
+    background-color: rgb(219, 218, 218);
+}
+
+.table-edit .judul td {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.table-edit td {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.table-edit .nmr {
+    width: 5%;
+    text-align: center;
+}
+
+.table-edit .edit {
+    width: 15%;
+    text-align: center;
+}
+
+.table-edit .edit .far {
+    padding: 0 5px;
+}
+
+.table-edit .jam-absen .keterangan {
+    text-align: center;
+    width: 15%;
+}
+
+.table-edit .jam-absen .jam-mulai {
+    width: 35%;
+}
+
+.jam-mulai,
+.jam-selesai {
+    text-align: center;
+}
+
+/*                         */
+/* AKHIR MENU ABSEN SISWA  */
+/*                         */
+
+
+
+
+/*                      */
+/* AKHIR MENU EDIT JAM  */
+/*                      */
+
+.edit span a {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+
+.edit span a:hover {
+    opacity: 1;
+}
+
+.btn-edit {
+    padding: 20px 0;
+    padding-top: 5px;
+}
+
+.simpan {
+    float: right;
+}
+
+.kembali {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: rgba(241, 241, 241, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    opacity: 0.7;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.kembali:hover {
+    cursor: pointer;
+    opacity: 1;
+    border: transparent;
+}
+
+.kembali:active {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*                      */
+/* AKHIR MENU EDIT JAM  */
+/*                      */
+
+
+
+
+
+
+
+/*                */
+/* MENU PRINT PDF  */
+/*                */
+
+.card-print {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-print {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.card-print h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.cetak {
+    height: 100%;
+}
+
+/*                      */
+/* AKHIR MENU PRINT PDF  */
+/*                      */
